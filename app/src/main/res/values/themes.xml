@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.QuizLab2" parent="Theme.Material3.DayNight.NoActionBar">
+    <item name="colorPrimary">@color/prussian_blue</item>
+        <item name="colorSecondary">@color/prussian_blue</item>
+    </style>
+
+    <style name="Theme.QuizLab2" parent="Base.Theme.QuizLab2" />
+
+    <style name="backgroundColor">
+        <item name="backgroundColor">#002D40</item>
+    </style>
+
+    <style name="ProgressBarColor">
+        <item name="colorSecondary">#D9ECF2</item>
+    </style>
+    
+    <style name="Dialog">
+        <item name="android:windowBackground">@drawable/empty_bac</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowMinWidthMajor">80%</item>
+        <item name="windowActionBar">false</item>
+    </style>
+</resources>
